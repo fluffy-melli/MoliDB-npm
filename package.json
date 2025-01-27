@@ -2,6 +2,7 @@
   "name": "molidb",
   "version": "0.1.0",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,6 +10,7 @@
   "license": "MIT",
   "description": "A module for interacting with Molidb using AES encryption and Gzip compression.",
   "dependencies": {
+    "@types/node": "^22.10.10",
     "axios": "^1.7.9",
     "crypto": "^1.0.1"
   }
