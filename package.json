@@ -9,6 +9,7 @@
   "license": "MIT",
   "description": "A module for interacting with Molidb using AES encryption and Gzip compression.",
   "dependencies": {
+    "@types/node": "^22.10.10",
     "axios": "^1.7.9",
     "crypto": "^1.0.1"
   }
